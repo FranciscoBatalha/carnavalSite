@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Carnaval</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="personalidades.html">Personalidades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="quiz.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Quiz
+                </a>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <header id="Quiz">
+        <h1>Quiz de Canarval</h1>
+        <h2>Vem responder!</h2>
+    </header>
+    <h1 id="Primeira">Primeira Pergunta</h1>
+    <p>Como é o traje do Rei Momo?</p>
+    <header id="Primeira">
+        <select id="Dhelmise">
+            <option>Selecione a resposta</option>
+            <option value="Certo">Multicolor</option>
+            <option value="Errado">Preto e rosa</option>
+        </select>
+    </header>
+
+    <h1>Segunda Pergunta</h1>
+    <P>Qual a cidade que foi responsavel como modelo exportador da festa carnavalesca para o mundo?</P>
+    <header id="Eternatus1">
+        <select id="Eternatus">
+            <option>Selecione a resposta</option>
+            <option value="Errado">Nice</option>
+            <option value="Certo">Paris</option>
+        </select>
+    </header>
+    <h1>Terceira Pergunta</h1>
+    <p>Carnaval é um festival de qual religião?</p>
+    <header id="Steven1">
+        <select id="Steven">
+            <option>Selecione a resposta</option>
+            <option value="Errado">Judaismo</option>
+            <option value="Certo">Cristianismo Ocidental</option>
+        </select>
+    </header>
+    <h1>Quarta Pergunta</h1>
+    <p>Quem é o personagem principal de commedia dell’arte?</p>
+    <header id="Diantha1">
+        <select id="Diantha">
+            <option>Selecione a resposta</option>
+            <option value="Gardevoir">Colombiana</option>
+            <option value="Gallade">Momo</option>
+            <option value="Clefable">Pierro</option>
+            <option value="Mr.Mime">Arlequim</option>
+        </select>
+        <script>
+        let pontos = 0
+        </script>
+    </header>
+    <h1>Quinta Pergunta</h1>
+    <p>Qual cidade criou e exportou o estilo de fazer carnaval com desfiles de escolas de samba para outras cidades do mundo?</p>
+    <header id="Palkia1">
+        <select id="Palkia">
+            <option>Selecione a resposta</option>
+            <option value="Kanto">Fortaleza</option>
+            <option value="Kalos">São Paulo</option>
+            <option value="Sinnoh">Rio de Janeiro</option>
+            <option value="Alola">Bahia</option>
+        </select>
+    </header>
+    <script>
+        let pontos = 0
+    </script>
+    <h1>Resultados</h1>
+    <p>Confira seus resultados!</p>
+    <div>
+        <center><button id="verificarResultado"> Verificar Resultado</button></center>
+        <p id="result"></p>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
